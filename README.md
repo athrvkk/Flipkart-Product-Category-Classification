@@ -10,10 +10,20 @@ This repository contains the code to the tasks for MIDAS Summer Internship 2021.
 # Solution:
 * The textual description of each product is used to categories the product.
 * The text data is preprocessed by removing emails, new line characters, distracting single quotes, digits, puntuations, single characters, accented words, and multiple spaces.
-* Various feature engineering techniques (word count, tf-idf, ngrams, and character level input) are used to develop input representations for the ML models.
+* Various feature engineering techniques are used to develop input representations for the ML models. They are as follows:
+    1. Word frequency based representation (only unigrams).
+    2. Word frequency based representation (unigrams and bigrams).
+    3. Word frequency based representation (unigrams, bigrams, and trigrams).
+    4. Word TF-IDF based representation (only unigrams).
+    5. Word TF-IDF based representation (unigrams and bigrams).
+    6. Word TF-IDF based representation (unigrams, bigrams, and trigrams).
+    7. Character TF-IDF based representation (bigrams and trigrams).
 * The dataset is split using stratified 70:30, train:test ratio.
 * The models are trained on the test data and its performance is measured on the validation data.
-* Standard machine learning models (Multinomial Naive Bayes, Random Forest, and Linear SVC) are used as they give pretty good accuracy.
+* Standard machine learning models are used as they give pretty good accuracy. They are as follows:
+    1. Multinomial Naive Bayes
+    2. Random Forest
+    3. Linear SVC
 * Confusion matrix as well as the performance analysis of each model is provided in the notebook.
 
 # Results (considering the to 10 product categories)
