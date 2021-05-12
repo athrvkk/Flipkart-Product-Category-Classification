@@ -1,11 +1,8 @@
-# MIDAS-IIITD-Task-2021
-This repository contains the code to the tasks for MIDAS Summer Internship 2021.
+# Product Category Classification
 
-
-# Task 3 Description:
 * The task is to classify the product category based on the product's description.
 * The product's description has to be extracted from the product category tree.
-* The dataset at hand is the Flipkart e-commerce sales sample dataset containing about 20k samples.
+* The dataset at hand is the Flipkart e-commerce sales sample dataset containing about 20k samples. [[link](https://docs.google.com/spreadsheets/d/1pLv0fNE4WHokpJHUIs-FTVnmI9STgog05e658qEON0I/edit?usp=sharing)]
 
 # Solution:
 * The textual description of each product is used to categories the product.
