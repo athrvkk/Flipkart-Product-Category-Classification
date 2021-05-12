@@ -1,4 +1,4 @@
-# Product Category Classification
+# Flipkart Product Category Classification
 
 * The task is to classify the product category based on the product's description.
 * The product's description has to be extracted from the product category tree.
